@@ -1,0 +1,549 @@
+/* Beddelka Bootstrap CSS ku jira boggaaga */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.row > [class*="col-"] {
+    padding: 15px;
+}
+
+.bg-white {
+    background-color: #fbf8f8;
+}
+
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.text-white {
+    color: #fff;
+}
+
+.text-muted {
+    color: #111112;
+}
+
+.text-dark {
+    color: #0c0c0c;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.border {
+    border: 1px solid #ddd;
+}
+
+.card {
+    border: 1px solid #1a1a1a;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    background-color: #f4f7fa;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #f5eeee;
+}
+
+.nav-link:hover {
+    color: #e0e4e8;
+}
+
+.bg-white {
+    background-color: #fbf8f8;
+}
+
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.text-white {
+    color: #fff;
+}
+
+.text-muted {
+    color: #111112;
+}
+
+.text-dark {
+    color: #0c0c0c;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.border {
+    border: 1px solid #ddd;
+}
+
+.card {
+    border: 1px solid #1a1a1a;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    background-color: #f4f7fa;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1a202c; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 3rem 0; /* Padding for top and bottom */
+}
+
+footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+footer .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+footer .grid div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .grid h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+footer .grid ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .grid ul li {
+    margin-bottom: 0.75rem;
+}
+
+footer .grid ul li a {
+    color: #e2e8f0; /* Light gray for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .grid ul li a:hover {
+    color: #ffffff; /* White on hover */
+}
+
+footer .grid .social-icons a {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #e2e8f0;
+    transition: color 0.3s ease;
+}
+
+footer .grid .social-icons a:hover {
+    color: #ffffff;
+}
+
+footer .grid .contact-info i {
+    color: #e2e8f0;
+    margin-right: 0.5rem;
+}
+
+footer .grid .contact-info li {
+    display: flex;
+    align-items: center;
+}
+
+footer .grid .social-icons a i {
+    font-size: 1.25rem;
+}
+
+/* Border-top styling for the bottom part */
+footer .border-t {
+    border-top: 1px solid #2d3748; /* Darker border color */
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+footer .border-t p {
+    color: #e2e8f0;
+    font-size: 0.875rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    footer .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    footer .grid {
+        grid-template-columns: 1fr;
+    }
+}
+    /* Styling for job card images */
+   
+.card-body {
+text-align: center; /* Centers the content inside the card */
+}
+
+
+
+.img-fluid{
+    border-radius: 30%;
+    height: 60%;
+    display: inline;
+ 
+}
+
+            /* General Styles */
+            .navbar-brand {
+                font-size: 1.8rem;
+                display: flex;
+                align-items: center;
+            }
+    
+            .navbar-brand img {
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+    
+            .navbar-nav .nav-link:hover {
+                color: #f39c12;
+            }
+                body {
+                    font-family: Arial, sans-serif;
+                    line-height: 1.6;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #a2c5f9;
+    
+                }
+                
+        
+                main {
+                    padding: 20px;
+                }
+        
+                section {
+                    margin-bottom: 40px;
+                }
+        
+                h1, h2 {
+                    color: #0d0202;
+                }
+        
+                p {
+                    color: #0d0101;
+                }
+        
+                /* Search Bar */
+                .search-box {
+                    background-color: #f4f7fa;
+                    padding: 20px;
+                    border-radius: 80px;
+                    box-shadow: 0 4px 6px rgba(34, 24, 24, 0.1);
+                    height: 80%;
+                }
+        
+                .search-box input {
+                    margin-bottom: 15px;
+                    padding: 10px;
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    width: 100%;
+                }
+        
+        
+                .search-box button:hover {
+                    background-color: #020d18;
+                }
+        
+                /* Image Styling */
+                .img-fluid {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 30px;
+                    margin-bottom: 20px;
+                
+                    border-color: #0d0101;
+                }
+        
+                /* Featured Jobs */
+                .featured-jobs .card {
+                    border-radius: 30%;
+            
+                }
+        
+                .featured-jobs .card img {
+                    max-width: 100%;
+                    height: 100px;
+                    object-fit: cover;
+                }
+        
+                .featured-jobs .card-body {
+                    padding: 30px;
+                }
+        
+                .featured-jobs .btn {
+                    background-color: #478cf4;
+                    color: rgb(251, 244, 244);
+                    border: none;
+                    padding: 10px;
+                    border-radius: 5px;
+                    font-weight: bold;
+                }
+        
+                .featured-jobs .btn:hover {
+                    background-color: #429ffc;
+                }
+        
+              
+             
+        
+        
+                @media (max-width: 768px) {
+                    nav ul {
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+        
+                    .row {
+                        flex-direction: column;
+                    }
+        
+                    .img-fluid {
+                        margin-bottom: 20px;
+                    }
+        
+                    .search-box {
+                        margin-bottom: 20px;
+                    }
+                }
+                #h1{
+                    font-size: 70px;
+                    text-align: center;
+                    font-style:oblique;
+                    color: rgb(62, 35, 235);
+                }
+                h2{
+                    font-size: 70px;
+                    text-align: center;
+                    font-style:oblique;
+                    color: rgb(62, 35, 235);
+                }
+
+
+
+
+
+
+
+                
+    /* Footer Styling */
+#main-footer {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, #4caf50, #8bc34a);
+    color: #fff;
+    border-top: 5px solid #4caf50;
+    transition: all 0.3s ease-in-out; /* Transition effect for smooth hover */
+}
+
+/* Hover Effect for Footer */
+#main-footer:hover {
+    background-image: linear-gradient(to right, #8bc34a, #4caf50);
+    transform: scale(1.05);
+}
+
+/* Optional: Add focus effect when footer is focused (e.g., tabbing through page) */
+#main-footer:focus {
+    outline: 3px solid #4caf50;
+}
+
+.category {
+    padding: 15px 30px;
+    background-color: #009688;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.category:hover {
+    background-color: #005f73;
+    transform: scale(1.1);
+}
+.scroll-btn-up {
+    top: 10px; /* Positioned at the top */
+}
+
+.scroll-btn-down {
+    bottom: 10px; /* Positioned at the bottom */
+}
+
+.scroll-btn-up:hover, .scroll-btn-down:hover {
+    background-color: #005f73;
+    transform: scale(1.1);
+}
+
+.main-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.categories {
+    overflow-y: auto;
+    white-space: nowrap;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    gap: 15px;
+    position: relative;
+    width: 250px;
+    height: 400px; /* Set a fixed height for scrolling */
+}
+
+
+ /* Style for scroll buttons */
+ .scroll-btn-up, .scroll-btn-down {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.categories button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.categories button.active {
+    background-color: #28a745;
+    font-weight: bold;
+   
+}
+
